@@ -10,7 +10,7 @@
 
             <!-- Exemplo de botão para uma disciplina -->
             <Button Text="Programação Web" Clicked="GoToDisciplinaWeb" />
-            <Button Text="Análise de Sistemas" Clicked="GoToDisciplinaAnalise" />
+            <Button Text="Análise de Sistemaaaaaaaaaas" Clicked="GoToDisciplinaAnalise" />
             <!-- Adicione mais botões conforme necessário -->
 
         </VerticalStackLayout>

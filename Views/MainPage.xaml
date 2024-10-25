@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppCurso.Views.MainPage"
+             Title="Disciplinas Técnicas">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+
+            <Label Text="Selecione uma disciplina:" FontSize="20" HorizontalOptions="Center" />
+
+            <!-- Exemplo de botão para uma disciplina -->
+            <Button Text="Programação Web" Clicked="GoToDisciplinaWeb" />
+            <Button Text="Análise de Sistemas" Clicked="GoToDisciplinaAnalise" />
+            <!-- Adicione mais botões conforme necessário -->
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

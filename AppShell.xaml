@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:MauiAppCurso.Views"
+       x:Class="MauiAppCurso.AppShell">
+
+    <TabBar>
+        <ShellContent Title="Disciplinas" ContentTemplate="{DataTemplate views:MainPage}" />
+
+        <!-- Exemplo de navegação para cada disciplina -->
+        <ShellContent Title="Programação Web" ContentTemplate="{DataTemplate views:DisciplinaWebPage}" />
+        <ShellContent Title="Análise de Sistemas" ContentTemplate="{DataTemplate views:DisciplinaAnalisePage}" />
+        <!-- Adicione ShellContent para cada disciplina aqui -->
+    </TabBar>
+
+</Shell>

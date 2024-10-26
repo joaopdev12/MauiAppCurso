@@ -9,8 +9,19 @@
             <Label Text="Selecione uma disciplina:" FontSize="20" HorizontalOptions="Center" />
 
             <!-- Exemplo de botão para uma disciplina -->
-            <Button Text="Programação Web" Clicked="GoToDisciplinaWeb" />
+            <Button Text="Programação Web I, II e III" Clicked="GoToDisciplinaWeb" />
             <Button Text="Análise de Sistemas" Clicked="GoToDisciplinaAnalise" />
+            <Button Text="Design Digital" Clicked="GoToDisciplinaDesignDigital" />
+            <Button Text="Fundamentos da Informática" Clicked="GoToDisciplinaFundamentosInformatica" />
+            <Button Text="Técnicas de Programação e Algoritmos" Clicked="GoToDisciplinaTecnicasProgramacao" />
+            <Button Text="Banco de Dados I e II" Clicked="GoToDisciplinaBancoDados" />
+            <Button Text="Desenvolvimento de Sistemas" Clicked="GoToDisciplinaDesenvolvimentoSistemas" />
+            <Button Text="Ética e Cidadania Organizacional" Clicked="GoToDisciplinaEticaCidadania" />
+            <Button Text="Programação de Aplicativos Mobile I e II" Clicked="GoToDisciplinaProgramacaoMobile" />
+            <Button Text="Internet, Protocolos e Segurança de Sistemas de Informação" Clicked="GoToDisciplinaInternetSeguranca" />
+            <Button Text="TCC em Desenvolvimento de Sistemas" Clicked="GoToDisciplinaTCC" />
+            <Button Text="Qualidade e Teste de Software" Clicked="GoToDisciplinaQualidadeTeste" />
+            <Button Text="Sistemas Embarcados" Clicked="GoToDisciplinaSistemasEmbarcados" />
             <!-- Adicione mais botões conforme necessário -->
 
         </VerticalStackLayout>

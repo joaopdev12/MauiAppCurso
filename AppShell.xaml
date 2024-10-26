@@ -3,14 +3,22 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:MauiAppCurso.Views"
        x:Class="MauiAppCurso.AppShell">
-
     <TabBar>
-        <ShellContent Title="Disciplinas" ContentTemplate="{DataTemplate views:MainPage}" />
+        <ShellContent Title="Disciplinas" ContentTemplate="{DataTemplate Views:MainPage}" />
 
-        <!-- Exemplo de navegação para cada disciplina -->
-        <ShellContent Title="Programação Web" ContentTemplate="{DataTemplate views:DisciplinaWebPage}" />
-        <ShellContent Title="Análise de Sistemas" ContentTemplate="{DataTemplate views:DisciplinaAnalisePage}" />
-        <!-- Adicione ShellContent para cada disciplina aqui -->
+        <!-- Navegação para cada disciplina -->
+        <ShellContent Title="Programação Web" ContentTemplate="{DataTemplate Views:DisciplinaWebPage}" />
+        <ShellContent Title="Análise de Sistemas" ContentTemplate="{DataTemplate Views:DisciplinaAnalisePage}" />
+        <ShellContent Title="Design Digital" ContentTemplate="{DataTemplate Views:DisciplinaDesignDigitalPage}" />
+        <ShellContent Title="Fundamentos da Informática" ContentTemplate="{DataTemplate Views:DisciplinaFundamentosInformaticaPage}" />
+        <ShellContent Title="Técnicas de Programação e Algoritmos" ContentTemplate="{DataTemplate Views:DisciplinaTecnicasProgramacaoPage}" />
+        <ShellContent Title="Banco de Dados I e II" ContentTemplate="{DataTemplate Views:DisciplinaBancoDadosPage}" />
+        <ShellContent Title="Desenvolvimento de Sistemas" ContentTemplate="{DataTemplate Views:DisciplinaDesenvolvimentoSistemasPage}" />
+        <ShellContent Title="Ética e Cidadania Organizacional" ContentTemplate="{DataTemplate Views:DisciplinaEticaCidadaniaPage}" />
+        <ShellContent Title="Programação de Aplicativos Mobile I e II" ContentTemplate="{DataTemplate Views:DisciplinaProgramacaoMobilePage}" />
+        <ShellContent Title="Internet, Protocolos e Segurança" ContentTemplate="{DataTemplate Views:DisciplinaInternetSegurancaPage}" />
+        <ShellContent Title="TCC em Desenvolvimento de Sistemas" ContentTemplate="{DataTemplate Views:DisciplinaTCCPage}" />
+        <ShellContent Title="Qualidade e Teste de Software" ContentTemplate="{DataTemplate Views:DisciplinaQualidadeTestePage}" />
+        <ShellContent Title="Sistemas Embarcados" ContentTemplate="{DataTemplate Views:DisciplinaSistemasEmbarcadosPage}" />
     </TabBar>
-
 </Shell>
